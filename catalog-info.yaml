@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: m365-automation
+  namespace: kyos
+  description: "Microsoft 365 automation scripts (public)."
+  tags:
+    - powershell
+    - m365
+    - automation
+    - public
+  annotations:
+    github.com/project-slug: kyos-public/m365-automation
+spec:
+  type: tool
+  owner: group:kyos/it-team
+  system: managed-services
