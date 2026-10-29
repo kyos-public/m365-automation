@@ -13,5 +13,6 @@ metadata:
     github.com/project-slug: kyos-public/m365-automation
 spec:
   type: tool
+  lifecycle: production
   owner: group:kyos/it-team
   system: managed-services
